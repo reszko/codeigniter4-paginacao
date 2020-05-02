@@ -1,0 +1,100 @@
+CRITICAL - 2020-05-01 12:11:43 --> Undefined index: argc
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\CLI\CLI.php(708): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 708, Array)
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\CLI\CLI.php(166): CodeIgniter\CLI\CLI::parseCommandLine()
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\CLI\CLI.php(969): CodeIgniter\CLI\CLI::init()
+#3 C:\xampp\htdocs\yt\ci4-seeder\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#7 C:\xampp\htdocs\yt\ci4-seeder\app\Database\Seeds\Usuario.php(21): spl_autoload_call('CodeIgniter\\CLI...')
+#8 C:\xampp\htdocs\yt\ci4-seeder\system\Database\Seeder.php(172): App\Database\Seeds\Usuario->run()
+#9 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(10): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2020-05-01 12:17:25 --> Access level to App\Models\UsuarioModel::$table must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-01 12:19:34 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-01 12:19:45 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-01 12:20:24 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(20): view('usuarios', Array)
+#3 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-01 12:20:42 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(20): view('usuarios', Array)
+#3 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-01 12:21:57 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-01 12:28:10 --> Argument 1 passed to CodeIgniter\Pager\Pager::links() must be of the type string, null given, called in C:\xampp\htdocs\yt\ci4-seeder\app\Views\usuarios.php on line 12
+#0 C:\xampp\htdocs\yt\ci4-seeder\app\Views\usuarios.php(12): CodeIgniter\Pager\Pager->links(NULL, 'bootstrap_pagin...')
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#3 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(20): view('usuarios', Array)
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-01 12:38:12 --> Invalid file: Pager\bootstrap_paginations.php
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pager\\bootstrap...')
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\Pager\Pager.php(187): CodeIgniter\View\View->render('Pager\\bootstrap...')
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\Pager\Pager.php(122): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_pagin...')
+#3 C:\xampp\htdocs\yt\ci4-seeder\app\Views\usuarios.php(15): CodeIgniter\Pager\Pager->links('default', 'bootstrap_pagin...')
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#6 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(23): view('usuarios', Array)
+#7 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-05-01 12:40:36 --> Unknown column 'codigo' in 'field list'
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT `codigo`...')
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `codigo`...')
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `codigo`...')
+#3 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `codigo`...', Array, false)
+#4 C:\xampp\htdocs\yt\ci4-seeder\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\Model.php(1137): CodeIgniter\Model->findAll(10, 0)
+#6 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(18): CodeIgniter\Model->paginate(10)
+#7 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}

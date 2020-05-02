@@ -1,0 +1,64 @@
+CRITICAL - 2020-05-02 12:33:15 --> Undefined variable: pager
+#0 C:\xampp\htdocs\yt\ci4-paginate\app\Views\usuarios.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#3 C:\xampp\htdocs\yt\ci4-paginate\app\Controllers\Home.php(22): view('usuarios', Array)
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-02 12:35:26 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-02 12:38:29 --> Undefined index: nome
+#0 C:\xampp\htdocs\yt\ci4-paginate\app\Views\usuarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#3 C:\xampp\htdocs\yt\ci4-paginate\app\Controllers\Home.php(18): view('usuarios', Array)
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-02 12:40:18 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-02 12:58:01 --> Invalid file: Pager\bootstrap_pagerx.php
+#0 C:\xampp\htdocs\yt\ci4-paginate\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pager\\bootstrap...')
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\Pager\Pager.php(187): CodeIgniter\View\View->render('Pager\\bootstrap...')
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\Pager\Pager.php(122): CodeIgniter\Pager\Pager->displayLinks('default', 'boostrap_pagina...')
+#3 C:\xampp\htdocs\yt\ci4-paginate\app\Views\usuarios.php(34): CodeIgniter\Pager\Pager->links('default', 'boostrap_pagina...')
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yt\ci4-paginate\system\Common.php(1071): CodeIgniter\View\View->render('usuarios', Array, true)
+#6 C:\xampp\htdocs\yt\ci4-paginate\app\Controllers\Home.php(19): view('usuarios', Array)
+#7 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-05-02 13:01:47 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-02 13:02:02 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-paginate\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-paginate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-paginate\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

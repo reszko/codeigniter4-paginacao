@@ -1,0 +1,14 @@
+CRITICAL - 2020-04-10 16:10:48 --> Unknown column 'endereo' in 'field list'
+#0 C:\xampp\htdocs\yt\ci4-seeder\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\yt\ci4-seeder\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\yt\ci4-seeder\app\Database\Seeds\Usuario.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\yt\ci4-seeder\system\Database\Seeder.php(172): App\Database\Seeds\Usuario->run()
+#6 C:\xampp\htdocs\yt\ci4-seeder\app\Controllers\Home.php(10): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yt\ci4-seeder\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yt\ci4-seeder\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\yt\ci4-seeder\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
